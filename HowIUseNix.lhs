@@ -29,3 +29,5 @@ reproducible? My answer to use [nix](https://nixos.org/nix).
 ~~~~ {include="fromIssue.nix"}
 ~~~~
 
+Before looking at the *.nix* file I use, let's actually analyse the
+data.
