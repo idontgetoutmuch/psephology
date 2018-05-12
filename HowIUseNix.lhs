@@ -24,10 +24,16 @@ Haskell packages that you need and all the R packages that you need
 are available and how can you make sure that your results are
 reproducible? My answer to use [nix](https://nixos.org/nix).
 
-![](diagrams/london.png)
+![](diagrams/kingston.png)
+
+Before looking at the *.nix* file I use, let's actually analyse the
+data.
+
+https://data.london.gov.uk/dataset/i-trees-canopy-ward-data
+
+~~~~ {include="app/DrawTheWards.hs"}
+~~~~
 
 ~~~~ {include="fromIssue.nix"}
 ~~~~
 
-Before looking at the *.nix* file I use, let's actually analyse the
-data.
