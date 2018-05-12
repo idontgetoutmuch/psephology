@@ -35,6 +35,7 @@ mkDerivation {
   ];
   executableSystemDepends = [
     R
+    pkgs.rPackages.dplyr
     pkgs.rPackages.ggmap
     pkgs.rPackages.ggplot2
     pkgs.rPackages.knitr
