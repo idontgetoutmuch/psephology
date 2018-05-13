@@ -2,7 +2,7 @@
 
 let
 
-f = { mkDerivation, haskell, base, Frames
+f = { mkDerivation, haskell, base, Frames, fuzzyset
     , inline-r, integration, lens
     , pandoc-types, plots
     , diagrams-rasterific
@@ -25,6 +25,7 @@ mkDerivation {
     diagrams-contrib
     (haskell.lib.dontCheck inline-r)
     Frames
+    fuzzyset
     integration
     lens
     pandoc-types
